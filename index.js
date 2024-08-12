@@ -64,3 +64,14 @@ function printRele(array) {
   return count;
 }
 console.log(printRele(movies));
+
+function updatedmoviegenre(array) {
+  array.forEach((movie) => {
+    if (movie.title == "The Dark Knight") {
+      movie.title == Drama;
+    }
+    return movies;
+  });
+}
+let updatedmovies = updatedmoviegenre(movies);
+console.log(updatedmovies);
