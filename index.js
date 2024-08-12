@@ -68,7 +68,7 @@ console.log(printRele(movies));
 function updatedmoviegenre(array) {
   array.forEach((movie) => {
     if (movie.title == "The Dark Knight") {
-      movie.title == Drama;
+      movie.genre == Drama;
     }
     return movies;
   });
